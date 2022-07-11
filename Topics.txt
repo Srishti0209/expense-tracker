@@ -1,0 +1,74 @@
+1. useContext Hook
+2. UseReducer Hook
+3. useEffect as componentDidUpdate
+4. useEffect as componentDidMount
+5. useEffect as componentWillUnmount
+6. reducers 
+7. useRef Hook
+8. Login page with (username and password ) and google sign in
+
+
+
+1. Test cases using jest
+2. pipeline 
+3. cloud
+4. SEO
+
+
+
+Mongo :
+1. Text search with a "text" index
+2. Regex
+3. Sort, skip, limit
+4. Update many
+5. replaceOne
+6. Create collection with a $jsonschema
+7. Create Indexes
+8. List Indexes
+9. Sharded Cluster
+10. Aggregation
+
+
+create() - Save one or more Documents to the database
+
+insertMany() - Shortcut for validating an array of documents and inserting them into MongoDB if they're all valid. This function is faster than .create() because it only sends one operation to the server, rather than one for each document.
+
+findOne() -Finds one document
+
+find() - Finds documents
+
+updateOne()-Updates one document in the database without returning it.
+
+update()- Same as update(), except it does not support the multi or overwrite options.
+
+updateMany()- Same as update(), except MongoDB will update all documents that match filter
+
+deleteOne()- Deletes the first document that matches conditions from the collection.
+
+deleteMany()- Deletes all of the documents that match conditions from the collection
+
+Aggregations :  Aggregations are operations that process data records and return computed results
+
+1. $group : Count the number of Users Belonging To A Particular Region
+
+2. $match : $match acts as a where condition to filter out documents.
+
+3. $project : $project is used to add columns dynamically to the collection and use it for further aggregation.
+
+4. count : Count Number of User who belong to a certain region
+
+5. distinct :Find all distinct regions
+
+
+Express JS :
+
+1. HTTP GET
+
+2. HTTP POST
+
+3. HTTP PUT : Use PUT APIs primarily to update an existing resource.
+
+4. HTTP DELETE : As the name applies, DELETE APIs are used to delete resources.
+
+5. HTTP PATCH : PATCH requests are to make partial update on a resource
+
